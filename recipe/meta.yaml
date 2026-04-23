@@ -1,5 +1,5 @@
 {% set name = "ethon" %}
-{% set version = "0.12.0" %}
+{% set version = "0.13.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: e99d3095e89f82c5a7e63d9261ddf4a21f28ae5d12a9d3abaa6920cce6cbef3d
+  sha256: 829302877aa7dd5d06ee5667f51a950ff883ef9e847e5aeb7ae8ad443b1314b3
 
 build:
   noarch: generic
